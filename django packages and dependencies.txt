@@ -1,0 +1,19 @@
+django pip packages
+
+pip install easy-thumbnails==2.7 ==== for creating image thumbnails
+taggit = for creating tags in blogs
+pip install celery==4.4.2 # used for performing asynchrnous tasks
+				# rabbitmq is the recommended message broker for celery
+launching celery = celery -A onlineShop worker -l info
+flower package is used for monitoring celery
+pip install flower==0.9.3
+celery -A onlineShop flower
+pip install braintree==3.59.0  #for payment gateways
+
+weasyprint packAGE for generating pdf
+PIP INSTALL WEASYPRINT
+https://github.com/GtkSharp/GtkSharp/wiki/Installing-Gtk-on-Windows
+
+for running localserver on https
+python manage.py runserver_plus --cert-file cert.crt
+https://127.0.0.1:8000/admin
