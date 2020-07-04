@@ -1,7 +1,7 @@
 *.log
 *.pot
 *.pyc
-venv
+env
 .vscode
 /media
 db.sqlite3

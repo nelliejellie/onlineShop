@@ -4,7 +4,6 @@ from decimal import Decimal
 from django.core.validators import MinValueValidator, MaxValueValidator
 from coupons.models import Coupon
 
-
 # Create your models here.
 class Order(models.Model):
     first_name = models.CharField(max_length=50)
